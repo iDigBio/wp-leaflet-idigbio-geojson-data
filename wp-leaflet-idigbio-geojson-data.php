@@ -1,15 +1,16 @@
 <?php
-/**
- * @package Akismet
- */
 /*
    Plugin Name: wp-leaflet-idigbio-geojson-data
-   Description: Add shortcode for filling in geojson feature data of occurences of the given scientific name.
-   Version: 1.2.3
-   Author: iDigBio
+   Plugin URI: https://github.com/idigbio/wp-leaflet-idigbio-geojson-data
+   Description: Add shortcode for filling in geojson feature data of occurences from iDigBio matching the given search to leaflet maps.
+   Version: 1.2.4
+   Author: iDigBio (Nathan Bird)
    Author URI: https://www.idigbio.org/
-   License: GPLv2 or later
+   License: MIT
  */
+
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
 
 function idigbio_geojson_data_handler($atts) {
   if (empty($atts)) {
