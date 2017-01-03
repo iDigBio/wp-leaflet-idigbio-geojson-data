@@ -1,15 +1,15 @@
 # WP Leaflet iDigBio geojson data #
 
-This Wordpress plugin provides data from [iDigBio]() to maps produced
-by the [leaflet-map]() plugin.
+This Wordpress plugin provides data from [iDigBio] to maps produced
+by the [leaflet-map] plugin.
 
 
 ## Installation and use ##
 
-Install the leaflet-map plugin and the wp-leaflet-idigbio-geojson-data
+Install the [leaflet-map] plugin and the [wp-leaflet-idigbio-geojson-data]
 plugin and then include both [shortcodes][shortcode] on the page. Any
 attributes specified in the shortcode will be passed to
-the [iDigBio Search API]() as a [Record Query Field]().
+the [iDigBio Search API] as a [Record Query Field].
 
 
 ### Example use ###
@@ -20,9 +20,9 @@ the [iDigBio Search API]() as a [Record Query Field]().
 
 ## Search API details ##
 
-This queries the [iDigBio search api]() for data points. Any
+This queries the [iDigBio search api] for data points. Any
 attributes specified in the shortcode will be passed as
-a [Record query Field](). Only string/number parameter types are
+a [Record query Field]. Only string/number parameter types are
 currently supported.
 
 
