@@ -6,10 +6,15 @@ by the [leaflet-map] plugin.
 
 ## Installation and use ##
 
-Install the [leaflet-map] plugin and the [wp-leaflet-idigbio-geojson-data]
-plugin and then include both [shortcodes][shortcode] on the page. Any
-attributes specified in the shortcode will be passed to
-the [iDigBio Search API] as a [Record Query Field].
+Install the [leaflet-map] plugin and the
+wp-leaflet-idigbio-geojson-data plugin. To install this plugin get the
+.zip file from the [Releases] tab and unzip it in the
+`wp-content/plugins` folder of your wordpress install or go to the
+plugins manager and upload it there.
+
+Include both [shortcodes][shortcode] on the page. Any attributes
+specified in the shortcode will be passed to the [iDigBio Search API]
+as a [Record Query Field].
 
 
 ### Example use ###
@@ -31,3 +36,4 @@ currently supported.
 [iDigBio]: https://www.idigbio.org/home
 [leaflet-map]: https://wordpress.org/plugins/leaflet-map/
 [shortcode]: https://codex.wordpress.org/Shortcode
+[Releases]: https://github.com/iDigBio/wp-leaflet-idigbio-geojson-data/releases
