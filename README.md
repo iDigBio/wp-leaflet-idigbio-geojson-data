@@ -20,7 +20,10 @@ the [iDigBio Search API]() as a [Record Query Field]().
 
 ## Search API details ##
 
-This queries the [iDigBio search api](https://github.com/idigbio/idigbio-search-api/wiki) for data points. Any
+This queries the [iDigBio search api]() for data points. Any
+attributes specified in the shortcode will be passed as
+a [Record query Field](). Only string/number parameter types are
+currently supported.
 
 
 [iDigBio Search API]: https://github.com/idigbio/idigbio-search-api/wiki
